@@ -1,17 +1,12 @@
 # ctypes-pointer-utils
 
-Helpers to create and wrap `ctypes` pointers (ctypes / array / optional numpy modes).
+Small helpers around ctypes pointers. If you're poking at native structs and keep rewriting the same cast/addr boilerplate, this is that boilerplate.
 
 ## Install
 
 ```bash
-pip install -e .
-pip install numpy  # optional
+pip install git+https://github.com/oldrepublicwizard/ctypes-pointer-utils.git
 ```
-
-## Origin
-
-Extracted from PyKotor `utility/system/memory/pointer_extensions.py`.
 
 ## License
 
